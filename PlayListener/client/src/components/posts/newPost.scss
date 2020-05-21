@@ -1,0 +1,16 @@
+.new-post-form {
+  margin: 20px 0;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 0px 15px black;
+  color: black;
+}
+
+.postOrCancel {
+  display: flex;
+  justify-content: space-between;
+
+  .btn {
+    width: 48%;
+  }
+}

@@ -1,0 +1,128 @@
+.comment {
+  width: 100%;
+  min-height: 180px;
+  border-bottom: solid 1px white;
+  display: flex;
+  margin: -1.2px 0;
+
+  .frame {
+    height: 180px;
+    padding: 10px;
+
+    img {
+      height: 100%;
+      box-shadow: 0 0px 8px black;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .frame {
+      height: 100px;
+    }
+  }
+
+  .info {
+    width: 100%;
+    min-height: 180px;
+    padding: 10px 10px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .user-info {
+      .username-date {
+        float: right;
+        text-align: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+        p {
+          margin: 0;
+        }
+
+        .date {
+          font-size: 0.85rem;
+          font-weight: 100;
+        }
+      }
+
+      .description {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0 0 10px 0;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .user-info {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .description {
+          margin-bottom: 3px;
+        }
+
+        .username {
+          text-align: left;
+          font-size: 0.8rem;
+          margin: 0;
+        }
+      }
+    }
+
+    .description {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .viewComments {
+      font-size: 1rem;
+      margin: 0;
+      color: grey;
+      text-align: left;
+    }
+  }
+
+  .meta {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    margin: 0 -5px;
+
+    .btn {
+      margin: 0 5px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .buttons {
+      flex-direction: column;
+    }
+
+    .btn {
+      margin: 5px 0;
+    }
+
+    .btn-danger {
+      width: 100%;
+    }
+  }
+}
+
+.is-in-playlist {
+  border: solid 1.2px #1db954;
+}

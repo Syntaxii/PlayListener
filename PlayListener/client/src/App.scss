@@ -1,0 +1,85 @@
+.App {
+  margin: auto;
+  color: black;
+}
+
+.container {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+
+  @media screen and (max-width: 1200px) {
+    width: 75%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .go-back-comments {
+    width: 180px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+.posts-container {
+  background: white;
+  box-shadow: 0 0px 15px black;
+}
+
+.btn {
+  border-radius: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: solid white 2px;
+}
+
+.btn-primary:hover {
+  color: black;
+  border: solid white 2px;
+  background-color: white;
+}
+
+.btn-secondary {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  border: solid black 2px;
+}
+
+.btn-danger {
+  width: 100px;
+  margin-left: 8px;
+  border-width: 2px;
+  color: red;
+}
+
+.btn-spotify {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  border: solid #1db954 2px;
+}
+
+.btn-spotify:hover {
+  background-color: #1db954;
+  color: white;
+}
+
+.btn-muted {
+  color: grey;
+  border: solid grey 2px;
+  pointer-events: none;
+}

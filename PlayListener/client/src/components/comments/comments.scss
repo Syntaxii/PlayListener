@@ -1,0 +1,29 @@
+.comments-section {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 50px;
+
+  @media screen and (max-width: 480px) {
+    padding: 0 10px;
+  }
+
+  .comments-header {
+    h1 {
+      color: white;
+    }
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn {
+      width: 250px;
+    }
+  }
+
+  .comments-container {
+    background: lightgray;
+    box-shadow: 0 0px 15px black;
+    margin: 20px 0;
+  }
+}

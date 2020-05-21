@@ -1,0 +1,55 @@
+.navbar {
+  padding: 30px 0;
+  justify-content: center;
+
+  .container {
+    margin: 0px 0;
+    width: 90%;
+
+    .logo {
+      height: 60px;
+      margin: 10px 0;
+    }
+
+    .btn-primary {
+      width: 150px;
+      margin-left: 20px;
+    }
+
+    .logged {
+      display: flex;
+    }
+
+    .logged-in {
+      display: flex;
+
+      h3 {
+        color: white;
+      }
+    }
+
+    .logged-out {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .btn-primary {
+        width: 120px;
+        margin-left: 0px;
+        margin: 0 10px;
+      }
+    }
+  }
+}
